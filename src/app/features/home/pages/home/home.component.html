@@ -1,0 +1,13 @@
+<mat-toolbar class="toolbar">
+  <button (click)="logout()" class="exit-button" mat-icon-button>
+    <mat-icon aria-hidden="false" aria-label="Exist from app">exit_to_app</mat-icon>
+  </button>
+</mat-toolbar>
+<div>
+  <h1>Welcome {{loggedUser.name}} {{loggedUser.surname}}!</h1>
+  <span *ngIf="lastTime">The last time you accessed was</span>
+  <div>
+    <app-clock *ngIf="lastTime" [time]="lastTime"></app-clock>
+    <span *ngIf="!lastTime">This is your first Login</span>
+  </div>
+</div>

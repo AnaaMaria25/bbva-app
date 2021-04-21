@@ -1,0 +1,23 @@
+@import '../../../variables.scss';
+
+.form-field {
+    display: block;
+}
+
+.login-button {
+    background-color: $darkBlue;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.register-link-container {
+    margin: 24px auto 0 auto;
+    display: block;
+    width: fit-content;
+}
+
+h2 {
+    margin: 0 auto;
+    width: fit-content;
+}

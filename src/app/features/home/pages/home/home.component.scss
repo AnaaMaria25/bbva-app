@@ -1,0 +1,18 @@
+@import '../../../../../variables.scss';
+
+.exit-button {
+    position: absolute;
+    right: 0;
+}
+
+.toolbar {
+    background-color: $darkBlue;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+h1, span {
+    margin: 0 auto;
+    display: block;
+    width: fit-content;
+    margin-top: 14px;
+}
